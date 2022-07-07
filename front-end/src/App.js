@@ -1,8 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
+
 import Messages from './Messages'
 import Home from './Home'
-import Aboutme from './Aboutme'
+import Aboutus from './Aboutus'
 import Header from './Header'
 import Footer from './Footer'
 
@@ -15,7 +16,7 @@ const App = props => {
           <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="/messages" element={<Messages />}></Route>
-            <Route path="/aboutme" element={<Aboutme />}></Route>
+            <Route path="/aboutme" element={<Aboutus />}></Route>
           </Routes>
         </main>
         <Footer />
